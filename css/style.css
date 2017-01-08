@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  background-color: #eee;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100px;
+  background: #888 url(https://readingagency.org.uk/children/banner%20logo%20solid%20black.jpg) no-repeat 10px;
+  background-blend-mode: darken;
+  background-size: contain;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+  text-align: right;
+}
+
+.menuitem {
+  height: 100%;
+  width: 10%;
+  -webkit-transform: skew(-35deg);
+  -moz-transform: skew(-35deg);
+  -o-transform: skew(-35deg);
+  display: inline-block;
+  margin: 0px -3px 0px -3px;
+  cursor: pointer;
+  -webkit-transition: width .3s;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.menuitem:last-child {
+  margin-right: 60px;
+}
+
+.min {
+  -webkit-transform: skew(35deg);
+  -moz-transform: skew(35deg);
+  -o-transform: skew(35deg);
+  width: 100%;
+  height: 100%;
+  margin-left: -50px;
+  padding-right: 100px;
+  position: relative;
+  background-size: 100%!important;
+}
+
+.mt {
+  position: absolute;
+  display: block;
+  color: white;
+  mix-blend-mode: exclusion;
+  font-size: 25px;
+  font-family: "Franklin Gothic";
+  bottom: 0px;
+  right: 90px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all .3s;
+     -moz-transition: all .3s;
+      -ms-transition: all .3s;
+       -o-transition: all .3s;
+          transition: all .3s;
+}
+
+.mdes {
+  opacity: 0;
+  color: #FFF;
+  font-family: "Franklin Gothic";
+  text-shadow: 1px 1px black;
+  font-size: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: block;
+  position: absolute;
+}
+
+.md5 {
+  bottom: 68px;
+  left: 86px;
+}
+
+.md4 {
+  bottom: 51px;
+  left: 73px;
+}
+
+.md3{
+  bottom: 34px;
+  left: 60px;
+}
+
+.md2{
+  bottom: 17px;
+  left: 47px;
+}
+
+.md1 {
+  bottom: 0px;
+  left: 34px;
+}
+
+.mbg1 {
+  background: url(http://www.w3schools.com/css/img_fjords.jpg)no-repeat center center;
+}
+
+.mbg2 {
+  background: url(http://wallpaper-gallery.net/images/image/image-17.png)no-repeat center center;
+}
+
+.mbg3 {
+  background: url(http://wallpaper-gallery.net/images/image/image-15.jpg)no-repeat center center;
+}
+
+.mbg4 {
+  background: url(http://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg)no-repeat center center;
+}
+
+.mbg5 {
+  background: url(http://wowslider.com/sliders/demo-85/data1/images/southtyrol350698.jpg)no-repeat center center;
+}
+
+.menuitem:hover {
+  width: 45%;
+  z-index: 2;
+  box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.5); 
+}
+
+.menuitem:hover .mt {
+  font-size: 35px;
+}
+
+.min:hover .mdes {
+  opacity: 1;
+  -webkit-transition: .2s;
+     -moz-transition: .2s;
+      -ms-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+  -webkit-transition-delay: .2s;
+     -moz-transition-delay: .2s;
+      -ms-transition-delay: .2s;
+       -o-transition-delay: .2s;
+          transition-delay: .2s;
+}
